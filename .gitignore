@@ -1,0 +1,6 @@
+*.mp3
+*.ogg
+*.wave
+.env
+/assets/img/monImageSecrete.jpg
+/assets/MonDossierSecret/
