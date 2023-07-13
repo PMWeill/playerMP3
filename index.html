@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player MP3</title>
+    <script src="https://kit.fontawesome.com/8ce0d98d5e.js" crossorigin="anonymous"></script>
     <script type="module" src="./assets/js/script.js" defer></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -21,8 +22,13 @@
                     <img src="" alt="">
                    </div>
                    <div class="timer">
+                    <div class="prog100">
+                        <div class="prog60"></div>
+                    </div>
+                    <div class="temps">
                     <label for="horloge">Time:</label>
                     <p class="horloge">00:00:00/00:00:00</p>
+                    </div>
                    </div>
                 </div>
                 <div class="author">
@@ -31,23 +37,23 @@
                 </div>
                 <div class="bouttons">
                     <div class="button_player">
-                        <button></button>
-                        <button></button>
-                        <button></button>
+                        <button><i class="fa-solid fa-backward-step"></i></button>
+                        <button><i class="fa-solid fa-play"></i><i class="fa-solid fa-pause"></i></button>
+                        <button><i class="fa-solid fa-forward-step"></i></button>
                     </div>
                     <div class="random">
-                        <button></button>
+                        <button><i class="fa-solid fa-shuffle"></i></button>
                     </div>
                 </div>
 
             </div>
-            <div class="description">
+            <div class="txt">
                 <label for="Année">Année:</label>
-                <p class="annee">ANNEE</p>
-                <label for="tag">Genre:</label>
-                <p class="tag">GENRE</p>
+              <br>
+                <label for="tag">Genre:</label><br>
+                
                 <label for="description">Description:</label>
-                <p class="description">description</p>
+                
             </div>
         </div>
     </Main>
