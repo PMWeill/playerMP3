@@ -1,44 +1,45 @@
 const playlist_hiphop = [
     {
-        "title": "sfqsgfsgdsfg",
-        "author": "skjdsgois",
+        "title": "A.D.I.D.A.S.",
+        "author": "KORN",
         "cover": "./assets/img/cover/macover.jpg",
-        "year": 1971,
+        "year": 1997,
         "audio": "./assets/img/audio/blabla.mp3",
-        "genre": ['HIPHOP', 'JAZZ'],
+        "genre": ['METAL'],
         "description": "lorem"
 
     },
     {
-        "title": "sfqsgfsgdsfg",
-        "author": "skjdsgois",
+        "title": "Californication",
+        "author": "Red Hot Chili Peppers",
         "cover": "./assets/img/cover/macover.jpg",
-        "year": 1971,
+        "year": 2000,
         "audio": "./assets/img/audio/blabla.mp3",
-        "genre": ['HIPHOP', 'JAZZ'],
+        "genre": ['POP', 'ROCK'],
         "description": "lorem"
 
     },
     {
-        "title": "sfqsgfsgdsfg",
-        "author": "skjdsgois",
+        "title": "Sinner Man",
+        "author": " Nina Simone",
         "cover": "./assets/img/cover/macover.jpg",
-        "year": 1971,
+        "year": 1965,
         "audio": "./assets/img/audio/blabla.mp3",
-        "genre": ['HIPHOP', 'JAZZ'],
+        "genre": ['BLUES', 'JAZZ'],
         "description": "lorem"
 
-    },
+    }
     {
-        "title": "sfqsgfsgdsfg",
-        "author": "skjdsgois",
+        "title": "White Rabbit",
+        "author": " Jefferson Airplane",
         "cover": "./assets/img/cover/macover.jpg",
-        "year": 1971,
+        "year": 1967,
         "audio": "./assets/img/audio/blabla.mp3",
-        "genre": ['HIPHOP', 'JAZZ'],
+        "genre": ['Psychedelic ROCK', 'ROCK'],
         "description": "lorem"
 
-    },
+    }
+
     //demain il faudra rajouter des listes
 ]
-export {playlist_hiphop/* autre variable */}
+export { playlist_hiphop/* autre variable */ }
