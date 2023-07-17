@@ -1,0 +1,16 @@
+#slider {
+    position: relative;
+    width: 80%;
+}
+#imageA, #texteA {
+    position: absolute;
+}
+#imageA {
+    width: 100%;
+}
+#imageB, #texteB {
+    position: absolute;
+}
+#imageB {
+    width: 100%;
+}
