@@ -1,16 +1,37 @@
+
+#slider img {
+    vertical-align: bottom;
+}
 #slider {
+    overflow: hidden;
     position: relative;
     width: 80%;
 }
-#imageA, #texteA {
+#imageA, #texteA, #imageB, #texteB {
     position: absolute;
+   
 }
-#imageA {
+#imageA, #imageB {
     width: 100%;
+    
 }
-#imageB, #texteB {
-    position: absolute;
+ 
+.trans {
+     transition: all .5s;
 }
-#imageB {
-    width: 100%;
-}
+ .swipeLeft {
+    
+    transform: translateX(-100%);
+ }
+ .swipeRight {
+    transform: translateX(100%);
+ }
+ .swipeTop {
+    transform: translateY(-100%);
+ }
+ .swipeDown {
+    transform: translateY(100%);
+ }
+ .fadeOut {
+    opacity: 0;
+ }

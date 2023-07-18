@@ -22,7 +22,7 @@ const playlist_hiphop = [
     {
         "title": "Sinner Man",
         "author": " Nina Simone",
-        "cover": "./assets\img\nina.jpg",
+        "cover": "./assets/img/nina.jpg",
         "year": 1965,
         "audio": "./assets/img/audio/blabla.mp3",
         "genre": ['BLUES', 'JAZZ'],
@@ -32,7 +32,7 @@ const playlist_hiphop = [
     {
         "title": "White Rabbit",
         "author": " Jefferson Airplane",
-        "cover": "./assets\img\white rabbit.jpg",
+        "cover": "./assets/img/white rabbit.jpg",
         "year": 1967,
         "audio": "./assets/img/audio/blabla.mp3",
         "genre": ['Psychedelic ROCK', 'ROCK'],
