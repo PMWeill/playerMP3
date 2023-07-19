@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Player MP3</title>
-    <script src="https://kit.fontawesome.com/8ce0d98d5e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8ce0d98d5e.js"
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="./assets/js/script.js" defer></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/slider.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/slider.css" />
+  </head>
 
-
-<body>
-    <Main>
-        <div>
-            <h1 class="logo">MP3 PLAYER</h1>
-        </div>
-        <div class="container">
-            <div class="player">
-                <div class="caroussel">
-                    <div id="slider" class="cover"></div>
-                    <div class="timer">
-                        <div class="prog100">
-                            <div class="prog60"></div>
-                        </div>
-                        <div class="temps">
-                            <label for="horloge">Time:</label>
-                            <p class="horloge">00:00:00/00:00:00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="author">
-                    <h2 class="titre">TITRE</h2>
-                    <p class="artiste">ARTISTE</p>
-                </div>
-                <div class="bouttons">
-                    <div class="button_player">
-                        <div class="back"><button><i class="fa-solid fa-backward-step"></i></button></div>
-                        <div id="playPause"><button><i class="fa-solid fa-play"></i></button></div>
-                        <div class="next"><button><i class="fa-solid fa-forward-step"></i></button></div>
-                    </div>
-                    <div class="random">
-                        <button><i class="fa-solid fa-shuffle"></i></button>
-                    </div>
-                </div>
-
+  <body>
+    <main>
+      <div>
+        <h1 class="logo">MP3 PLAYER</h1>
+      </div>
+      <div class="container">
+        <div class="player">
+          <div class="caroussel">
+            <div id="slider" class="cover"></div>
+            <div class="timer">
+              <div class="prog100">
+                <div class="prog60"></div>
+              </div>
+              <div class="time">
+              </div>
             </div>
-            <div class="txt">
-                <label for="Année">Année:</label>
-                <br>
-                <label for="tag">Genre:</label><br>
-
-                <label for="description">Description:</label>
-
+          </div>
+          <div class="author">
+            <h2 class="titre">TITRE</h2>
+            <p class="artiste">ARTISTE</p>
+          </div>
+          <div class="bouttons">
+            <div class="button_player">
+              <div class="back">
+                <button><i class="fa-solid fa-backward-step"></i></button>
+              </div>
+              <div id="playPause">
+                <button><i class="fa-solid fa-play"></i></button>
+              </div>
+              <div class="next">
+                <button><i class="fa-solid fa-forward-step"></i></button>
+              </div>
             </div>
+            <div class="random">
+              <button><i class="fa-solid fa-shuffle"></i></button>
+            </div>
+            <div class="volume">
+              <div class="plus"><i class="fa-solid fa-volume-high"></i></div>
+              <div class="moin"><i class="fa-solid fa-volume-low"></i></div>
+            </div>
+          </div>
         </div>
-    </Main>
-</body>
+        <div class="txt">
+          <label for="Année">Année:</label>
+          <br />
+          <label for="tag">Genre:</label><br />
 
+          <label for="description">Description:</label>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

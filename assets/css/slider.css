@@ -1,11 +1,14 @@
 
 #slider img {
-    vertical-align: bottom;
+    vertical-align: bottom; 
+    
+   
 }
 #slider {
     overflow: hidden;
     position: relative;
-    width: 80%;
+    width: 100%; 
+    
 }
 #imageA, #texteA, #imageB, #texteB {
     position: absolute;
