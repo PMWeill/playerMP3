@@ -4,7 +4,7 @@ const playlist_hiphop = [
         "author": "KORN",
         "cover": "./assets/img/ADIDAS.jpg",
         "year": 1997,
-        "audio": "./assets/img/audio/blabla.mp3",
+        "audio": "./assets/audio/A.D.I.D.A.S..mp3",
         "genre": ['METAL'],
         "description": "lorem"
 
@@ -14,7 +14,7 @@ const playlist_hiphop = [
         "author": "Red Hot Chili Peppers",
         "cover": "./assets/img/cali.jpg",
         "year": 2000,
-        "audio": "./assets/img/audio/blabla.mp3",
+        "audio": "./assets/audio/06. Californication.mp3",
         "genre": ['POP', 'ROCK'],
         "description": "lorem"
 
@@ -24,7 +24,7 @@ const playlist_hiphop = [
         "author": " Nina Simone",
         "cover": "./assets/img/nina.jpg",
         "year": 1965,
-        "audio": "./assets/img/audio/blabla.mp3",
+        "audio": "./assets/audio/nina-simone-sinnerman.mp3",
         "genre": ['BLUES', 'JAZZ'],
         "description": "lorem"
 
@@ -34,7 +34,7 @@ const playlist_hiphop = [
         "author": " Jefferson Airplane",
         "cover": "./assets/img/white rabbit.jpg",
         "year": 1967,
-        "audio": "./assets/img/audio/blabla.mp3",
+        "audio": "./assets/audio/White Rabbit.mp3",
         "genre": ['Psychedelic ROCK', 'ROCK'],
         "description": "lorem"
 
