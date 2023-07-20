@@ -48,6 +48,8 @@ return(totalHeures+":"+totalMinutes+":"+totalSeconde);
   const plus = document.querySelector(".plus");
   const moin = document.querySelector(".moin");
   const time = document.querySelector(".time");
+  const random = document.querySelector(".random");
+
   const audio = new Audio(playlist[currentTrack].audio);
   audio.isPlaying = false;
   audio.volume = .5;
@@ -134,6 +136,19 @@ return(totalHeures+":"+totalMinutes+":"+totalSeconde);
     }
   });
 
+//utilisation d'une fonction event raccourcie à la place du traditionel addEventListener ex : onclick, onkeyup, onscroll...
+  random.onclick = () => {
+    console.dir("click sur random");
+   
+    
+   
+    
+
+  };
+
+
+
+  
 
   moin.addEventListener("click", () => {
     console.dir(audio.volume);
